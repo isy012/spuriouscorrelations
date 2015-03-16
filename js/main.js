@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
 	//open/close lateral filter
 	$('.cd-filter-trigger').on('click', function(){
 		triggerFilter(true);
@@ -61,6 +62,12 @@ jQuery(document).ready(function($){
 		( scrollTop >= offsetTop ) ? $('.cd-main-content').addClass('is-fixed') : $('.cd-main-content').removeClass('is-fixed');
 	}
 
+
+	$('a#ID').click(function(){ hello(); return false; });
+
+	function hello(){
+		console.log('HIELDO');
+	}
 	/************************************
 		MitItUp filter settings
 		More details: 
@@ -205,4 +212,5 @@ var buttonFilter = {
 	    	self.$container.mixItUp('filter', self.outputString);
 		}
   	}
+
 };

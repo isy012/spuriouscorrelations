@@ -9,12 +9,11 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Content Filters | CodyHouse</title>
+	<title>Spurious Correlations | A Random Production</title>
 	
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Description" content="">
-  <title>Title</title>
 
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -23,9 +22,6 @@
   <link rel="stylesheet" href="nv.d3.css">
     <style>
 
-#chart svg {
-  height: 400px;
-}
 
 </style>
 	
@@ -34,7 +30,7 @@
 </head>
 <body>
 	<header class="cd-header">
-		<h1>Content Filters</h1>
+		<h1>Spurious Correlations</h1>
 	</header>
 
 	<main class="cd-main-content">
@@ -56,29 +52,21 @@
 
 		<section class="cd-gallery">
 			<ul>
-				<li class="mix color-1 check1 radio2 option3"><a href = "card1.html"><img src="img/card1.png" alt="Image 1"></a></li>
-			<!--
-			<div id="container">
-				Spurious Correlations "ヽ༼ʘ̚͜ʘ̚༽ﾉ"
-				<div id="chart">
-				<svg></svg> 
-				</div>
-			</div>
-			-->
+				<li class="mix color-1 check1 radio2 option3 apples"><a id ="MYID" href ="card1.html"><img src="img/card1.png" alt="Image 1"></a></li>
 				<li class="mix color-2 check2 radio2 option2"><img src="img/card1.png" alt="Image 2"></li>
-				<li class="mix color-1 check3 radio3 option1"><img src="img/card1.png" alt="Image 3"></li>
-				<li class="mix color-1 check3 radio2 option4"><img src="img/card1.png" alt="Image 4"></li>
-				<li class="mix color-1 check1 radio3 option2"><img src="img/card1.png" alt="Image 5"></li>
+				<li class="mix color-1 check2 radio3 option1"><img src="img/card1.png" alt="Image 3"></li>
+				<li class="mix color-1 check2 radio2 option4"><img src="img/card1.png" alt="Image 4"></li>
+				<li class="mix color-1 check2 radio3 option2"><img src="img/card1.png" alt="Image 5"></li>
 				<li class="mix color-2 check2 radio3 option3"><img src="img/card1.png" alt="Image 6"></li>
 				<li class="mix color-2 check2 radio2 option1"><img src="img/card1.png" alt="Image 7"></li>
-				<li class="mix color-1 check1 radio3 option4"><img src="img/card1.png" alt="Image 8"></li>
-				<li class="mix color-2 check1 radio2 option3"><img src="img/card1.png" alt="Image 9"></li>
+				<li class="mix color-1 check2 radio3 option4"><img src="img/card1.png" alt="Image 8"></li>
+				<li class="mix color-2 check3 radio2 option3"><img src="img/card1.png" alt="Image 9"></li>
 				<li class="mix color-1 check3 radio2 option4"><img src="img/card1.png" alt="Image 10"></li>
 				<li class="mix color-1 check3 radio3 option2"><img src="img/card1.png" alt="Image 11"></li>
-				<li class="mix color-2 check1 radio3 option1"><img src="img/card1.png" alt="Image 12"></li>
+				<li class="mix color-2 check3 radio3 option1"><img src="img/card1.png" alt="Image 12"></li>
 				<li class="gap"></li>
 				<li class="gap"></li>
-				<li class="gap"></li>
+				<li class="gap"></li> <!-- 15 cards-->
 			</ul>
 			<div class="cd-fail-message">No results found</div>
 		</section> <!-- cd-gallery -->
@@ -89,7 +77,7 @@
 					<h4>Search</h4>
 					
 					<div class="cd-filter-content">
-						<input type="search" placeholder="Try France...">
+						<input type="search" placeholder="Try Apples...">
 					</div> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
 
@@ -99,17 +87,17 @@
 					<ul class="cd-filter-content cd-filters list">
 						<li>
 							<input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
-			    			<label class="checkbox-label" for="checkbox1">Option 1</label>
+			    			<label class="checkbox-label" for="checkbox1">Food</label>
 						</li>
 
 						<li>
 							<input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
-							<label class="checkbox-label" for="checkbox2">Option 2</label>
+							<label class="checkbox-label" for="checkbox2">Animals</label>
 						</li>
 
 						<li>
 							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
-							<label class="checkbox-label" for="checkbox3">Option 3</label>
+							<label class="checkbox-label" for="checkbox3">People</label>
 						</li>
 					</ul> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
